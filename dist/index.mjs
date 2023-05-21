@@ -3,9 +3,7 @@ const rules = {
 };
 
 const index = {
-  extends: [
-    "@antfu"
-  ],
+  extends: ["@antfu"],
   rules
 };
 

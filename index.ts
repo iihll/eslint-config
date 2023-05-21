@@ -1,8 +1,6 @@
 import rules from './rules'
 
 export default {
-  extends: [
-    '@antfu',
-  ],
+  extends: ['@antfu'],
   rules,
 }

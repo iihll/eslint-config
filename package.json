@@ -9,15 +9,17 @@
     "dist"
   ],
   "scripts": {
-    "dev": "cd example && pnpm dev",
     "build": "rimraf dist && unbuild",
     "release": "bumpp && pnpm publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "@antfu/eslint-config": "^0.39.0"
+  },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.0",
+    "@types/eslint": "^8.37.0",
     "@types/node": "^20.2.1",
     "bumpp": "^9.1.0",
     "eslint": "^8.41.0",
