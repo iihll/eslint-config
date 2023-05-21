@@ -1,6 +1,6 @@
 {
   "name": "@iihll/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "dev": "cd example && pnpm dev",
-    "build": "rimraf dist && unbuild"
+    "build": "rimraf dist && unbuild",
+    "release": "bumpp"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.0",
     "@types/node": "^20.2.1",
+    "bumpp": "^9.1.0",
     "eslint": "^8.41.0",
     "rimraf": "^5.0.1",
     "typescript": "^5.0.4",
