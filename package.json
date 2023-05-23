@@ -1,6 +1,6 @@
 {
   "name": "@iihll/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "iihll's ESLint config",
   "main": "index.js",
   "files": [
