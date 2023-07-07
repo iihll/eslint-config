@@ -4,6 +4,7 @@ module.exports = {
   ],
   rules: {
     'no-console': 'off',
-    'no-mixed-operators': 'off'
+    'no-mixed-operators': 'off',
+    "vue/custom-event-name-casing": ["error", "camelCase" | "kebab-case", { "ignores": [] }]
   }
 }
